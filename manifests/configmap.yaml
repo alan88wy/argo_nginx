@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  version: alpine
+  #version: alpine
+kind: ConfigMap
+metadata:
+  name: nginx-version
+  namespace: demo
